@@ -6,13 +6,13 @@ body{
 .header{
     display: flex;
     width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .logo-principal img{
+    padding: 25px 30px;
     width: 100px;
 }
-
-
 
 .main{
     width: 100%;
@@ -26,10 +26,11 @@ body{
 }
 
 #menu ul{
+
     margin: 0;
-        list-style: none;
-        font-size: 18px;
-        text-align: center;
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
 }
 
 
@@ -49,23 +50,31 @@ body{
 }
 
 .box-agendamento{
-    margin: auto 0;
+    padding: 32px 20px;
+
 }
 
 .box-agendamento div{
     border-radius: 15px;
     background: linear-gradient(90deg, #4C6E69 0%, #58CCAF 100%);
-    color: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
     font-family: Inter;
     font-size: 18px;
     font-weight: 100;
     line-height: normal;
     padding: 5px;
-    margin: 20px;
+
 }
 
 .box-agendamento div a{
     text-decoration: none;
-    color: #FFF;
+    padding: 0 5px;
+    font-weight: 600;
+    color: white;
+
 }
+
+
+
+
