@@ -1,22 +1,17 @@
-* { margin: 0; padding: 0; }
-
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    position: relative;
-}
-
-.slider li {
-    padding-top: 20px;
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: 100%;
+.galery {
     width: 100%;
-    vertical-align: top;
+    height: 800px;
+    overflow: hidden;
+    
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 20%;
 }
