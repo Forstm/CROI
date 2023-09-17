@@ -1,21 +1,17 @@
-* { margin: 0; padding: 0; }
-
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    position: relative;
+.galery {
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+    
 }
 
-.slider li {
-    list-style: none;
-    position: absolute;
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
 }
 
-.slider img {
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
+.galery .fotos img {
+    width: 20%;
 }
