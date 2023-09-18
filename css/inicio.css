@@ -87,87 +87,63 @@ body {
     justify-content: center;
 }
 
-/* Colocar esse parte de baixo em outro css fica melhor? */
 
-.nossas-qualidades {
+
+
+.espaço1 {
+    width: 100%;
+    height: 200px;
+    background-color: white;
     display: flex;
-    max-width: 100%;
-    padding-bottom: 200px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.bloco-1 {
-    width: 20%;
-    height: 224px;
-    background-color: #4C6E69;
+.atendimento{
+    width: 100%;
+    height: 367px;
+    background: #D9D9D9;
+    display: flex;
+    
 }
 
-.bloco-2 {
-    width: 20%;
-    height: 224px;
-    background-color: #539C8A;
-    color: #FFF;
+.atendimento img{
+    width: 640px;
+    padding-left: 104px;
+    margin-top: -28px;
+    margin-bottom: -28px;
+}
+
+.txt1 {
+    padding-left: 114px;
+    padding-top: 102px;
+}
+
+.atendimento h1{
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.atendimento p{
+    padding-top: 16px;
+    color: #000;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
+   
 }
 
-.bloco-3 {
-    width: 20%;
-    height: 224px;
-    background-color: #4C6E69;
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.box-saibamais{
+    width: 142px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #4C6E69 0%, #58CCAF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding-top: 60px;
 }
 
-.bloco-4 {
-    width: 20%;
-    height: 224px;
-    background-color: #539C8A;
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-
-.bloco-5 {
-    width: 20%;
-    height: 224px;
-    background-color: #4C6E69;
-}
-
-
-.bloco-2 img {
-    padding-top: 30px;
-    padding-left: 30%;
-}
-
-.bloco-2 p{
-    padding-left: 20px;
-}
-
-.bloco-3 img {
-    padding-top: 30px;
-    padding-left: 30%;
-}
-
-.bloco-3 p{
-    padding-left: 60px;
-}
-
-.bloco-4 img {
-    padding-top: 30px;
-    padding-left: 30%;
-}
-
-.bloco-4 p{
-    padding-left: 10px;
-}
