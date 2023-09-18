@@ -106,22 +106,68 @@ body {
     width: 20%;
     height: 224px;
     background-color: #539C8A;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .bloco-3 {
     width: 20%;
     height: 224px;
     background-color: #4C6E69;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .bloco-4 {
     width: 20%;
     height: 224px;
     background-color: #539C8A;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .bloco-5 {
     width: 20%;
     height: 224px;
     background-color: #4C6E69;
+}
+
+
+.bloco-2 img {
+    padding-top: 30px;
+    padding-left: 30%;
+}
+
+.bloco-2 p{
+    padding-left: 20px;
+}
+
+.bloco-3 img {
+    padding-top: 30px;
+    padding-left: 30%;
+}
+
+.bloco-3 p{
+    padding-left: 60px;
+}
+
+.bloco-4 img {
+    padding-top: 30px;
+    padding-left: 30%;
+}
+
+.bloco-4 p{
+    padding-left: 10px;
 }
