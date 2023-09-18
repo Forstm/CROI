@@ -137,13 +137,29 @@ line-height: normal;
    
 }
 
-.box-saibamais{
-    width: 142px;
-    height: 27px;
-    flex-shrink: 0;
+.box_saibamais{
+    padding-top: 25px;
+
+}
+
+.box_saibamais div{
     border-radius: 15px;
     background: linear-gradient(90deg, #4C6E69 0%, #58CCAF 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-padding-top: 60px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: normal;
+    padding: 5px;
+    width: 120px;
+    
+}
+
+.box_saibamais div a{
+    text-decoration: none;
+    padding: 0 5px;
+    font-weight: 600;
+    color: white;
 }
 
