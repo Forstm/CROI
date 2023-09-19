@@ -171,6 +171,7 @@ body {
     height: 566px;
     background: #56857D;
     display: flex;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    
 }
 
@@ -178,7 +179,8 @@ body {
     width: 450px;
     height: 450px;
     padding-left: 450px;
-    padding-top: 80px;
+    padding-top: 60px;
+
 }
 
 .tratamento h1{
@@ -214,17 +216,67 @@ body {
 
 .localizacao {
     background-color: #4C6E69;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     margin-top: 150px;
     margin-left: 200px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
+}
+
+.localizacao h1 {
+    font-size: 24px;
+    padding: 46px 0 16px 46px;
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.localizacao p {
+    padding-left: 46px;
+
+}
+
+.localizacao .box_saibamais {
+    padding-left: 46px;
+    padding-top: 20px;
 }
 
 .agendamento {
     background-color: #539C8A;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     margin-top: 150px;
     margin-left: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.agendamento h1 {
+    font-size: 24px;
+    padding-top: 190px;
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.agendamento p {
+    padding-top: 16px;
+}
+
+.agendamento .box-agendamento {
+    padding-top: 20px;
+    padding-left: 175px;
+    padding-right: 155px;
+}
+
+.mapa {
+    padding-top: 35px;
+    padding-left: 70px;
 }
