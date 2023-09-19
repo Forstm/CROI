@@ -200,3 +200,31 @@ body {
     line-height: normal;
     padding-bottom: 40px;
 }
+
+.localizacao-agendamento {
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 1630px;
+    font-family: Inter;
+    display: flex;
+    color: #FFF;
+
+}
+
+.localizacao {
+    background-color: #4C6E69;
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 200px;
+
+}
+
+.agendamento {
+    background-color: #539C8A;
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
