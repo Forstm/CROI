@@ -1,0 +1,327 @@
+.tratamentos{
+    width: 100%;
+    height: 135px;
+    background-color: #4C6E69;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+}
+
+.txt_trat{
+    display: flex;
+    height: 45px;
+    padding-left: 38%;
+    padding-top: -12px;
+}
+
+.txt_trat p{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+
+.implante{
+    width: 1300px;
+    height: 377px;
+    flex-shrink: 0;
+    background-color: #E5E5E5;
+    margin-left: 100px;
+    display: flex;
+}
+
+.implante_logo{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.implante_texto{
+    padding-left: 89px;
+    padding-top: 50px;
+    width: 941px;
+    height: 217px;
+} 
+
+.implante_titulo h1{
+    color: #171717;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.implante_txt p{
+    color: #171717;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.clareamento{
+    width: 100%;
+    height: 380px;
+    background-color: #56857D;
+    display: flex;
+}
+
+.clareamento_texto{
+    width: 941px;
+    height: 217px;
+    padding-top: 60px;
+    padding-left: 150px;
+}
+
+.clareamento_titulo h1{
+    color: white;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.clareamento_txt p{
+    color: white;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.clareamento_img{
+    padding-top: 104px;
+    padding-left: 118px;
+}
+
+.clinica{
+    width: 1300px;
+    height: 377px;
+    flex-shrink: 0;
+    background-color: #E5E5E5;
+    margin-left: 100px;
+    display: flex;
+}
+
+.clinica_img{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.clinica_texto{
+    padding-left: 89px;
+    padding-top: 50px;
+    width: 850px;
+    height: 217px;
+}
+
+.clinica_titulo h1{
+    color: #171717;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.clinica_txt p{
+    color: #171717;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.extração{
+    width: 100%;
+    height: 380px;
+    background-color: #56857D;
+    display: flex;   
+}
+
+.extração_texto{
+    width: 941px;
+    height: 217px;
+    padding-top: 60px;
+    padding-left: 150px;
+}
+
+.extração_titulo h1{
+    color: #FFF;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.extração_txt p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.extração_img{
+    padding-top: 104px;
+    padding-left: 118px;
+}
+
+.ortodontia{
+    width: 1300px;
+    height: 377px;
+    flex-shrink: 0;
+    background-color: #E5E5E5;
+    margin-left: 100px;
+    display: flex;
+}
+
+.ortodontia_img{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.ortodontia_texto{
+    padding-left: 89px;
+    padding-top: 50px;
+    width: 850px;
+    height: 217px;
+}
+
+.ortodontia_titulo h1{
+    color: #171717;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.ortodontia_txt p{
+    color: #171717;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+footer {
+    width: 100%;
+    height: 340px;
+    background-color: #141414;
+    display: flex;
+}
+
+.txt_contato{
+    padding-top: 73px;
+    padding-left: 100px;
+}
+
+.foot1 h1{
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot1 p{
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot2 h1{
+    padding-top: 28px;
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot2 p{
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: -10px;
+
+}
+
+
+.main_footer{
+    width: 100%;
+}
+
+.menu_footer{
+    width: 100%; 
+    height: 100%;
+    padding-left: 120px;
+}
+
+.menu_footer ul{
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu_footer ul li{
+    display: inline;
+}
+
+.menu_footer ul li a:hover{
+    font-weight: bolder;
+}
+
+.main_footer ul li a{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px;
+text-decoration: none;
+display: inline-block;
+}
+
+.redes_sociais{
+    padding-left: 310px;
+    padding-top: 25px;
+}
+
+.footer_img img{
+    width: 195px;
+    height: 195px;
+    flex-shrink: 0;
+    padding-left: 300px;
+}
