@@ -1,0 +1,116 @@
+
+  .wrapper {
+    width: 1031px;
+    height: 550px;
+    background: #141414;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  }
+
+  .wrapper .topo-calendario{
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+  }
+
+  .topo-calendario {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .topo-calendario .icons{
+    display: flex;
+    padding-top: 16px;
+
+  }
+
+  .topo-calendario .icons span{
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.9rem;
+    user-select: none;
+    border-radius: 50%;
+  }
+
+  .icons span:last-child{
+    margin-right: -10px;
+  }
+
+  .topo-calendario .icons span:hover{
+    background: #f2f2f2;
+  }
+
+  .topo-calendario .data-atual{
+    font-size: 1.45rem;
+    font-weight: 500;
+    color: #58CCAF;
+  }
+
+  .calendario{
+    padding: 20px;
+  }
+  
+  .calendario ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+  }
+
+  .calendarrio .days{
+    margin-bottom: 20px;
+  }
+
+  .calendario li{
+    color: #fff;
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+  }
+
+  .calendario .meses li{
+    font-weight: 500;
+    cursor: default;
+  }
+
+  .calendario .dias li{
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .dias li.inactive{
+    color: #434343;
+  }
+  
+  .dias li.active{
+    color: #fff;
+  }
+
+  .dias li::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dias li.active::before{
+    background: #4C6E69;
+  }
+
+  .dias li:not(.active):hover::before{
+    background: #58CCAF;
+  }
