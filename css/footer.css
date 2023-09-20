@@ -1,0 +1,98 @@
+footer {
+    width: 100%;
+    height: 340px;
+    background-color: #141414;
+    display: flex;
+}
+
+.txt_contato{
+    padding-top: 73px;
+    padding-left: 100px;
+}
+
+.foot1{
+    padding-left: 50px;
+    padding-top: px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot2{
+    padding-top: 28px;
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.logo_footer img{
+    width: 195px;
+height: 195px;
+flex-shrink: 0;
+padding-left: 300px;
+    
+}
+
+.main_footer{
+    width: 100%;
+}
+
+.menu_footer{
+    width: 100%; 
+    height: 100%;
+    padding-left: 140px;
+}
+
+.menu_footer ul{
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu_footer ul li{
+    display: inline;
+}
+
+.menu_footer ul li a:hover{
+    font-weight: bolder;
+}
+
+.main_footer ul li a{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px;
+text-decoration: none;
+display: inline-block;
+}
+
+.redes_sociais{
+    padding-left: 310px;
+    padding-top: 25px;
+}
+
+.txt_horario{
+    padding-left: 300px;
+    padding-top: 74px;
+}
+
+.foot3{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
