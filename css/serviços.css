@@ -286,7 +286,7 @@ footer {
 .menu_footer{
     width: 100%; 
     height: 100%;
-    padding-left: 120px;
+    padding-left: 88px;
 }
 
 .menu_footer ul{
@@ -326,4 +326,27 @@ display: inline-block;
     height: 195px;
     flex-shrink: 0;
     padding-left: 300px;
+}
+
+.txt_horario{
+    padding-left: 150px;
+    padding-top: 74px;
+}
+
+.foot3 h1{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.foot3 p{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }

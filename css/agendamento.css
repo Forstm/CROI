@@ -114,3 +114,9 @@
   .dias li:not(.active):hover::before{
     background: #58CCAF;
   }
+
+  .div_calendario{
+    width: 100%px;
+height: 406px;
+display: flex ;
+  }

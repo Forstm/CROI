@@ -1,0 +1,151 @@
+.contato {
+    width: 100%;
+    height: 135px;
+    background-color: #4C6E69;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+}
+
+.txt_serv {
+    display: flex;
+    height: 45px;
+    padding-left: 38%;
+    padding-top: -12px;
+}
+
+.txt_serv p{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.sobrenos{
+    width: 100%;
+    height: 823px;
+    flex-shrink: 0;
+    background-color: #D8D8D8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 65px;
+}
+
+.sobre_txt{
+    width: 1200px;
+height: 445px;
+flex-shrink: 0;
+padding-left: 100px;
+padding-top: 100px;
+
+}
+
+.sobre_txt h2{
+    color: #171717;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.sobre_txt h1{
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.sobre_txt p{
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.bottom_txt{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.bottom_txt p{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+}
+
+.espaçamento{
+    width: 100%;
+    height: 135px;
+    display: flex;
+    margin-top: 65px;
+}
+
+.box1{
+    width: 25%;
+    background-color: #4C6E69;
+}
+
+.box2{
+    width: 25%;
+    background-color: #56857D;
+}
+
+.box3{
+    width: 25%;
+    background-color: #539C8A;
+}
+
+.box4{
+    width: 25%;
+    background-color: #58CCAF;
+}
+
+.div_form{
+    width: 100%;
+height: 576px;
+flex-shrink: 0;
+display: flex;
+background-color: #D8D8D8;
+margin-top: 100px;
+}
+
+.formulario{
+    width: 594px;
+height: 576px;
+flex-shrink: 0;
+border-radius: 25px;
+background-color: #141414;
+margin-left: 100px;
+}
+.form_txt{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.form_txt h1{
+    color: #171717;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.form_txt p{
+    color: #171717;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
