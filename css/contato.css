@@ -75,12 +75,12 @@ line-height: normal;
 
 .bottom_txt p{
     color: #000;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: italic;
-font-weight: 300;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .espaçamento{
@@ -112,21 +112,23 @@ line-height: normal;
 
 .div_form{
     width: 100%;
-height: 576px;
-flex-shrink: 0;
-display: flex;
-background-color: #D8D8D8;
-margin-top: 100px;
+    height: 576px;
+    flex-shrink: 0;
+    display: flex;
+    background-color: #D8D8D8;
+    margin-top: 100px;
 }
 
 .formulario{
     width: 594px;
-height: 576px;
-flex-shrink: 0;
-border-radius: 25px;
-background-color: #141414;
-margin-left: 100px;
+    height: 576px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background-color: #141414;
+    margin-left: 100px;
 }
+
+
 .form_txt{
     padding-top: 100px;
     padding-left: 100px;
@@ -148,4 +150,234 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+label{
+    display: block;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 100px;
+    padding-top: 54px;
+}
+
+input{
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+background: #FFF;
+width: 306px;
+height: 30px;
+flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 340px;
+    background-color: #141414;
+    display: flex;
+}
+
+.txt_contato{
+    width: 20%;
+    margin-top: 5%;
+}
+
+
+.foot1 h1{
+    margin-bottom: 0;
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot1 p{
+    margin-top: 0;
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot2 h1{
+    margin-bottom: 0;
+    padding-top: 28px;
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot2 p{
+    margin-top: 0;
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: -10px;
+
+}
+
+
+.centro_footer{
+    width: 60%;
+    text-align: center;
+}
+
+.main_footer{
+    width: 100%;
+}
+
+.menu_footer{
+    width: 100%; 
+
+}
+
+.menu_footer ul{
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu_footer ul li{
+    display: inline;
+}
+
+.menu_footer ul li a:hover{
+    font-weight: bolder;
+}
+
+.main_footer ul li a{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px;
+text-decoration: none;
+display: inline-block;
+}
+
+.redes_sociais{
+    margin-top: 4%;
+}
+
+.footer_img img{
+    width: 25%;
+    height: 25%;
+    flex-shrink: 0;
+}
+
+.txt_horario{
+    width: 20%;
+    margin-top: 5%;
+}
+
+.foot3 h1{
+    margin-bottom: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foot3 p{
+    margin-top: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
