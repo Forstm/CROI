@@ -6,8 +6,9 @@ footer {
 }
 
 .txt_contato{
-    padding-top: 73px;
-    padding-left: 100px;
+width: 20%;
+align-items: center;
+margin-top: 5%;
 }
 
 .foot1{
@@ -33,29 +34,29 @@ footer {
 
 }
 
+.centro_footer{
+    width: 60%;
+    text-align: center;
+}
+
+
 .logo_footer img{
-    width: 195px;
-height: 195px;
+width: 25%;
+height: 25%;
 flex-shrink: 0;
-padding-left: 300px;
-    
+
 }
 
 .main_footer{
-    width: 100%;
+ width: 100%;
 }
 
-.menu_footer{
-    width: 100%; 
-    height: 100%;
-    padding-left: 110px;
-}
 
 .menu_footer ul{
     margin: 0;
     list-style: none;
     font-size: 18px;
-    text-align: center;
+    
 }
 
 .menu_footer ul li{
@@ -79,13 +80,12 @@ display: inline-block;
 }
 
 .redes_sociais{
-    padding-left: 310px;
-    padding-top: 25px;
+    margin-top: 2%;
 }
 
 .txt_horario{
-    padding-left: 150px;
-    padding-top: 74px;
+   width: 20%;
+   margin-top: 5%;
 }
 
 .foot3{

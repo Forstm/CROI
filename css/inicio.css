@@ -28,8 +28,9 @@
 }
 
 .txt1 {
-    padding-left: 114px;
+    padding-left: 80px;
     padding-top: 102px;
+    width: 500px;
 }
 
 .atendimento h1{
@@ -96,7 +97,7 @@
 .tratamento img {
     width: 450px;
     height: 450px;
-    padding-left: 450px;
+    padding-left: 170px;
     padding-top: 60px;
 
 }
@@ -136,8 +137,8 @@
     background-color: #4C6E69;
     width: 550px;
     height: 550px;
-    margin-top: 150px;
-    margin-left: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
@@ -167,8 +168,7 @@
     background-color: #539C8A;
     width: 550px;
     height: 550px;
-    margin-top: 150px;
-    margin-left: 200px;
+    margin-top: 10%;
     text-align: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
@@ -195,7 +195,7 @@
 }
 
 .mapa {
-    max-width: 100%;
+    width: 400;
     padding-top: 35px;
     padding-left: 70px;
 }
