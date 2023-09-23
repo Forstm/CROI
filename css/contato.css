@@ -117,6 +117,7 @@ line-height: normal;
     display: flex;
     background-color: #D8D8D8;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .formulario{
@@ -161,7 +162,7 @@ label{
     font-weight: 600;
     line-height: normal;
     padding-left: 100px;
-    padding-top: 54px;
+    padding-top: 45px;
 }
 
 input{
@@ -174,10 +175,22 @@ height: 30px;
 flex-shrink: 0;
 }
 
+.box-enviar div{
+    width: 178px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #4C6E69 0%, #58CCAF 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
+}
 
-
-
+.box-enviar div a{
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: 600;
+    color: white;
+}
 
 
 
