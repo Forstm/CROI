@@ -244,6 +244,8 @@ line-height: normal;
 
 form{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 label{
@@ -288,12 +290,15 @@ input{
 
 }
 
-.box-form div a{
-  text-decoration: none;
-  padding: 0 5px;
-  font-weight: 600;
+#botao-agendamento{
+  font-weight: 800;
+  margin: 0;
   color: white;
-
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  
 }
 
 footer {
