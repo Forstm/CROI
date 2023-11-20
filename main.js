@@ -1,4 +1,39 @@
+
+function limpar(){
+
+    document.getElementById("txtNome").placeholder = "Digite seu Nome";  
+    document.getElementById("txtNome").style.backgroundColor = "white";
+
+    document.getElementById("txtSobre").placeholder = "Digite seu sobrenome";
+    document.getElementById("txtSobre").style.backgroundColor = "white"; 
+
+    document.getElementById("txtCpf").placeholder = "Digite seu CPF";
+    document.getElementById("txtCpf").style.backgroundColor = "white";  
+
+    document.getElementById("txtEmail").placeholder = "Digite seu E-mail";
+    document.getElementById("txtEmail").style.backgroundColor = "white";
+
+    document.getElementById("txtTel").placeholder = "Digite seu Telefone";
+    document.getElementById("txtTel").style.backgroundColor = "white";
+
+    document.getElementById("txtEnde").placeholder = "Digite seu endereço";
+    document.getElementById("txtEnde").style.backgroundColor = "white";
+
+    document.getElementById("txtCep").placeholder = "Digite seu CEP";
+    document.getElementById("txtCep").style.backgroundColor = "white";
+
+    document.getElementById("txtCid").placeholder = "Digite sua cidade";
+    document.getElementById("txtCid").style.backgroundColor = "white";
+
+    document.getElementById("txtEst").placeholder = "Digite seu estado";
+    document.getElementById("txtEst").style.backgroundColor = "white";
+
+}
+
+
 function verificar(){
+
+    limpar();
     var enviar = true ;
 
     var nome = document.getElementById("txtNome").value;
@@ -46,7 +81,7 @@ function verificar(){
         document.getElementById("txtTel").style.backgroundColor = "#f5abb0";
     }
 
-    var endereco = document.getElementById("txtTel").value;
+    var endereco = document.getElementById("txtEnde").value;
 
     if( endereco.length == 0 ){
         enviar = false;
@@ -73,7 +108,7 @@ function verificar(){
         document.getElementById("txtCid").style.backgroundColor = "#f5abb0";
     }
 
-    var estado = document.getElementById("txtCid").value;
+    var estado = document.getElementById("txtEst").value;
 
     if( estado.length == 0 ){
         enviar = false;
@@ -81,5 +116,9 @@ function verificar(){
         document.getElementById("txtEst").placeholder = "Campo preenchido incorretamente";
         document.getElementById("txtEst").style.backgroundColor = "#f5abb0";
     }
+
+    if(enviar){
+        document.agendamento.submit(); 
+     }
     
 }
