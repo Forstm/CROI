@@ -119,6 +119,6 @@ function verificar(){
 
     if(enviar){
         document.agendamento.submit(); 
-     }
+    }
     
 }

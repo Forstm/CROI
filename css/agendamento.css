@@ -213,7 +213,7 @@ line-height: normal;
 .txt_form{
   display: flex;
   height: 45px;
-  padding-left: 39%;
+  padding-left: 400px;
   padding-top: -12px;
   color: #FFF;
   text-align: center;
@@ -227,18 +227,23 @@ line-height: normal;
 
 .div_form{
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-color: #D8D8D8;
   margin-top: 5%;
   display: flex;
+  padding-top: 100px;
 }
 
 .form{
   width: 784px;
-  height: 700px;
+  height: 800px;
   border-radius: 25px;
   background-color: #141414;
- margin-left: 20%;
+  margin-left: 20%;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
  
 }
 
@@ -273,7 +278,6 @@ input{
 
 .box-form{
   margin-left: 5%;
-  margin-top: 10%;
 
 }
 
@@ -309,11 +313,15 @@ footer {
   margin-top: 5%;
 }
 
+.div_form .form div #txt_agendamento{
+  color: #D8D8D8;
+  padding-left: 50px;
+}
+
 .txt_contato{
   width: 20%;
   margin-top: 5%;
 }
-
 
 .foot1 h1{
   margin-bottom: 0;
